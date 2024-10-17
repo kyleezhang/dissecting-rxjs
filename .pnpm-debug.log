@@ -1,0 +1,55 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "dissecting-rxjs",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kyleezhang/dissecting-rxjs.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/kyleezhang/dissecting-rxjs/issues"
+      },
+      "homepage": "https://github.com/kyleezhang/dissecting-rxjs#readme"
+    },
+    "prefix": "/Users/zhangtao/Projects/dissecting-rxjs"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/zhangtao/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/zhangtao/Projects/dissecting-rxjs/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/zhangtao/Projects/dissecting-rxjs",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@babel/nodelodash is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/@babel%2Fnodelodash"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@babel/nodelodash",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/@babel%2Fnodelodash: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/@babel%2Fnodelodash: Not Found - 404\n    at RetryOperation._fn (/Users/zhangtao/.nvm/versions/node/v17.5.0/lib/node_modules/pnpm/dist/pnpm.cjs:85680:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

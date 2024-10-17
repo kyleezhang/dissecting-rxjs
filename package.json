@@ -1,0 +1,30 @@
+{
+  "name": "dissecting-rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleezhang/dissecting-rxjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyleezhang/dissecting-rxjs/issues"
+  },
+  "homepage": "https://github.com/kyleezhang/dissecting-rxjs#readme",
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/node": "^7.25.7",
+    "@babel/preset-env": "^7.25.8"
+  }
+}
